@@ -78,8 +78,8 @@ I've found that temperature functions as a "creativity dial" with clear use case
 | 0.7-1.0 | Creative, diverse outputs | Brainstorming, creative writing, idea generation |
 
 ```python
- # Define prompt 
- prompt = """ Give me a list of 3 unique and unusual ice cream flavors. """
+# Define prompt 
+prompt = """ Give me a list of 3 unique and unusual ice cream flavors. """
 
 # Low temperature (0.0) for focused, deterministic output
 response = get_completion(prompt, temperature=0, max_tokens=100) 
@@ -98,8 +98,8 @@ print(response)
 Output: 
 Sure! Here are three unique and unusual ice cream flavors: 
 1. **Lemon Basil**: A refreshing blend of zesty lemon and fragrant basil, this ice cream offers a unique twist on the classic citrus flavor, providing a herbaceous finish that’s perfect for summer. 
-2. 2. **Wasabi Ginger**: This adventurous flavor combines the heat of wasabi with the spiciness of ginger, creating a surprising fusion that tantalizes the taste buds. It's a bold option for those who enjoy a bit of kick in their dessert. 
-3. 3. **Avocado Lime**: Creamy avocado meets zesty lime for a rich and refreshing ice cream that balances sweetness with a hint of tartness. This flavor is rich in healthy fats and has a smooth, velvety texture. 
+2. **Wasabi Ginger**: This adventurous flavor combines the heat of wasabi with the spiciness of ginger, creating a surprising fusion that tantalizes the taste buds. It's a bold option for those who enjoy a bit of kick in their dessert. 
+3. **Avocado Lime**: Creamy avocado meets zesty lime for a rich and refreshing ice cream that balances sweetness with a hint of tartness. This flavor is rich in healthy fats and has a smooth, velvety texture. 
 
 Enjoy the exploration of these unique flavors!
 
@@ -147,14 +147,14 @@ One common issue with LLMs is their tendency to repeat themselves. These two par
 
 **Frequency_penalty:**
 
--   A value between -2.0 and 2.0 that penalizes tokens based on how frequently they've appeared
--   Higher values discourage repetition of the tokens that has been already usued. 
--  Reduce reduncy. Negative values can encourage repetition if that's desirec.
+- A value between -2.0 and 2.0 that penalizes tokens based on how frequently they've appeared
+- Higher values discourage repetition of the tokens that have been already used. 
+- Reduce redundancy. Negative values can encourage repetition if that's desired.
 
 **Presence_penalty:**
 
--   Similar to frequency_penalty but slightly different in logic. A higher positive value penalizes tokens that have already appeared in the text, regardless of frequency.
--   Encourages the model to explore totally new topics (novelty) or vocabulary.
+- Similar to frequency_penalty but slightly different in logic. A higher positive value penalizes tokens that have already appeared in the text, regardless of frequency.
+- Encourages the model to explore totally new topics (novelty) or vocabulary.
 - Helps to avoid repeating entire lines or phrases 
 
 I've found these parameters particularly useful when:
@@ -170,10 +170,10 @@ This parameter sets the upper limit on how many tokens the model will generate i
 
 While it might seem straightforward, strategic use of max_tokens can:
 
--   Encourage conciseness in responses
--   Prevent verbose explanations
--   Manage costs (since pricing is often per token)
--   Create a specific rhythm in conversation systems
+- Encourage conciseness in responses
+- Prevent verbose explanations
+- Manage costs (since pricing is often per token)
+- Create a specific rhythm in conversation systems
 
 I've found that setting max_tokens to approximately 1.5-2x what you expect the response to require works well as a guideline. This prevents cutoffs while still maintaining reasonable constraints.
 ```python
@@ -205,9 +205,9 @@ Stop sequences are among the most underutilized yet powerful parameters for stru
 
 I regularly use stop sequences to:
 
--   Generate exactly N items in a list by setting `stop: ["N+1."]`
--   Create clean JSON objects by stopping at the closing brace
--   Prevent the model from continuing a conversation when it should just answer
+- Generate exactly N items in a list by setting `stop: ["N+1."]`
+- Create clean JSON objects by stopping at the closing brace
+- Prevent the model from continuing a conversation when it should just answer
 
 ```python
 # Define prompt 
@@ -232,9 +232,9 @@ When working on creative tasks, I often want to see multiple options without mak
 
 This combination is extremely valuable for:
 
--   Creative brainstorming sessions
--   Headline or title generation
--   Finding the optimal wording for important communications
+- Creative brainstorming sessions
+- Headline or title generation
+- Finding the optimal wording for important communications
 
 ```python
 def get_completion_n(prompt, model="gpt-4o-mini", temperature=0.5, max_tokens=100, top_p=1.0, stop=None, n=1, logprobs=False, top_logprobs=None): 
@@ -275,9 +275,9 @@ This parameter reveals the model's own confidence in its outputs by providing th
 
 In my more technical projects, I use logprobs to:
 
--   Identify when the model is uncertain about factual claims
--   Debug problematic prompts
--   Build more reliable document extraction pipelines
+- Identify when the model is uncertain about factual claims
+- Debug problematic prompts
+- Build more reliable document extraction pipelines
 
 ```python
 import numpy as np
