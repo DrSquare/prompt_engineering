@@ -326,7 +326,7 @@ Once you've mastered the standard parameters, consider these advanced techniques
 2.  **A/B testing parameter combinations**: Systematically test which combinations work best for your specific use case
 3.  **Dynamic parameter adjustment**: Change parameters based on user input or context
 
-## Conclusion: The Difference Between Amateur and Expert Prompt Engineering
+## Conclusion: The Difference Between Beginner and Expert Prompt Engineering
 
 In my journey with LLMs, I've come to realize that the difference between beginner and expert prompt engineering often comes down to parameter control in addition to prompt content.
 
