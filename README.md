@@ -340,4 +340,4 @@ What parameter combinations have you found most effective in your work? I'd love
 
 ----------
 
-**About the Author**: Minha Hwang is an AI specialist focusing on practical applications of large language models in business environments. Connect with me on [[Minha Hwang-LinkedIn](https://www.linkedin.com/in/minha-hwang-7440771/)] to continue the conversation.).
+**About the Author**: Minha Hwang is an AI applied scientist focusing on practical applications of large language models in business environments. Connect with me on [[Minha Hwang-LinkedIn](https://www.linkedin.com/in/minha-hwang-7440771/)] to continue the conversation.).
