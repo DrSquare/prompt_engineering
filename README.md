@@ -57,7 +57,7 @@ def get_completion(prompt, model="gpt-4o-mini", temperature=0.5, max_tokens=100,
 	
 ```
 
-### Temperature: The Primary Creativity Dial
+### (1) Temperature: The Primary Creativity Dial
 Temperature is perhaps the most important parameter for controlling output randomness and creativity.
 
 **What it is:** A value typically between 0 and 2 (commonly 0 to 1) that divides the logits (raw prediction scores) before they're converted to probabilities. Temperature of 0 makes the output deterministic, which is useful for debugging. However, the response can be more plain and dull. Higher temperature results in more creative model, but also causing more halluciation. 
@@ -107,7 +107,7 @@ Enjoy the exploration of these unique flavors!
 
 > "Temperature is your primary creativity dial. Low for facts, high for creativity, middle for a balanced approach."
 
-### Top_p (Nucleus Sampling): The Alternative Randomness Control
+### (2) Top_p (Nucleus Sampling): The Alternative Randomness Control
 
 While temperature adjusts how probabilities are distributed, top_p takes a different approach by limiting which tokens are considered at all.
 
@@ -141,7 +141,7 @@ As the sun begins its descent toward the horizon, the sky transforms into a brea
 
 Most practitioners (myself included) tend to adjust either temperature OR top_p, but not both simultaneously.
 
-### Frequency and Presence Penalties: Combating Repetition
+### (3) Frequency and Presence Penalties: Combating Repetition
 
 One common issue with LLMs is their tendency to repeat themselves. These two parameters help address this:
 
@@ -164,7 +164,7 @@ I've found these parameters particularly useful when:
 3.  Working with models that tend to get "stuck in a loop"
 
 
-### Max_tokens: Controlling Output Length
+### (4) Max_tokens: Controlling Output Length
 
 This parameter sets the upper limit on how many tokens the model will generate in response.
 
@@ -197,7 +197,7 @@ Captain Elara Voss had always been drawn to the stars. As the commander of the s
 ```
 
 
-### Stop Sequences: Precision Termination
+### (5) Stop Sequences: Precision Termination
 
 Stop sequences are among the most underutilized yet powerful parameters for structured outputs.
 
@@ -224,7 +224,7 @@ Output:
 
 ```
 
-### N : Exploring Multiple Possibilities
+### (6) N: Exploring Multiple Possibilities
 
 When working on creative tasks, I often want to see multiple options without making separate API calls.
 
@@ -269,7 +269,7 @@ Option 2: "Sip Sustainably: Refresh Your World, One Refill at a Time!"
 Option 3: "Refresh, Reuse, Renew: Sip Sustainably!"
 ```
 
-### LogProbs: Understanding Model Confidence
+### (7) LogProbs: Understanding Model Confidence
 
 This parameter reveals the model's own confidence in its outputs by providing the log probabilities of tokens.
 
