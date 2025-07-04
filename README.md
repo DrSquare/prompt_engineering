@@ -121,7 +121,7 @@ In my experience, top_p is particularly useful when:
 
 ```python
 # Define prompt 
-prompt = """ Describe a sunset over a tropical beach.
+prompt = """ Describe a sunset over a tropical beach. """
 
 # Low top_p (0.1): conservative and repetitive
 response = get_completion(prompt, max_tokens=75, top_p=0.1) 
@@ -211,7 +211,7 @@ I regularly use stop sequences to:
 
 ```python
 # Define prompt 
-prompt = """ List three advantages of renewable energy:\n1. """
+prompt = """ List three advantages of renewable energy: """
 
 response = get_completion(prompt, max_tokens=128, temperature=0.7, stop=["4."]) # Stop at the fourth item
 print(response)
