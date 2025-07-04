@@ -64,6 +64,7 @@ Temperature is perhaps the most important parameter for controlling output rando
 
 **Under the hood:**
 
+- At T = 0, the output becomes deterministic and only the outcome with max probability is chosen. This is useful for debugging. Note that the output can change even with T = 0 in production due to differences in system prompts and numerical computation differences from different hardware, etc. 
 -   At T = 1, the model's raw predictions are used as-is
 -   At T > 1, the probability distribution becomes more uniform (flattened)
 -   At T < 1, the probability distribution becomes more concentrated (sharpened)
