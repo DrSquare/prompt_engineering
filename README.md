@@ -16,7 +16,7 @@ Before we dive into specific parameters, it's crucial to understand what's happe
 ![LLM_Token_Generation](https://github.com/user-attachments/assets/5161f853-a118-4876-b85c-b72ae9401b56)
  _Image: Visualization of the autoregressive text generation process, where each token is predicted based on previous tokens_
 
-At their core, autoregressive language models are **probability kernels** that predict the next word given a prefix of text over vocabulity (dictionary). Each token is generated based on the probability distribution calculated from all previous tokens.
+At their core, autoregressive language models are **probability kernels** that predict the next word given a prefix of text over vocabulary (dictionary). Each token is generated based on the probability distribution calculated from all previous tokens.
 
 Mathematically, this can be represented as:
 
