@@ -1,0 +1,14 @@
+Company deep dive Prompt Template: (any AI chatbot with Deep Research) 
+
+"Conduct a comprehensive analysis of [Company Name], covering the following areas:
+Current Valuation: Latest valuation figures from public or investor sources.
+Market Size: Total addressable market (TAM) and served available market (SAM)
+Funding History: Detailed list of funding rounds, amounts raised, key investors, and valuation changes.
+Founders & Leadership: Background and profiles of the founding team and executive leadership.
+Technology & Roadmap: Core technologies, product development timeline, milestones, and future roadmap.
+Team Size: Current number of employees and hiring trends.
+Competitive Landscape: Major competitors with positioning analysis.
+Strengths & Weaknesses: Internal capabilities, technical differentiators, and known limitations or risks.
+SWOT Analysis: Summary of Strengths, Weaknesses, Opportunities, and Threats.
+Partnerships: Strategic collaborations and business alliances.
+Intellectual Property: Notable patents, proprietary technologies, and IP strategy."
