@@ -1,0 +1,35 @@
+Create a visually appealing seminar poster for an academic or professional event.
+Include the following text elements clearly on the poster:
+
+Seminar Title: {Title}
+
+Speaker: {Speaker}
+
+Date & Time: {DateTime}
+
+Venue: {Venue}
+
+Host:{Host}
+
+Design style:
+
+Clean, modern academic layout with good readability
+
+Use university or corporate style color palette (e.g., navy, white, gold)
+
+Emphasize the title and speaker photo area
+
+Include subtle tech-inspired or AI/robotics visuals (e.g., circuit patterns, abstract data motifs)
+
+Add decorative shapes or background gradient for balance
+
+Poster aspect ratio 4:5, suitable for printing and sharing on social media
+
+
+Institutional logo: {Logo}
+
+Background illustration matching theme: {BackgroundTheme}
+
+Speaker photo: Use the attached portrait photo
+
+Output style: Photorealistic vector-style poster with clean typography and strong layout hierarchy. 
