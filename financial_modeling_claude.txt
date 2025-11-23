@@ -1,0 +1,1 @@
+"Create a comprehensive financial model for [Company Name] with: - 5-year projections (2024-2028) - DCF valuation with sensitivity analysis - Multiple valuation methods (P/E, EV/Sales, etc.) - All formulas in Excel format - Include assumption inputs I can modify"
