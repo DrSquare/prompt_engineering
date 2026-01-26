@@ -1,5 +1,5 @@
-## Food Infographic: Gemini Nano Banana Pro
-#### You can obtain "Food Infographic" by changing the [FOOD NAME]. Try Galbi, 감자탕, etc by using the following prompt. 
+## Food Recipe Infographic Generation Prompt Template: (With Gemini Nano Banana Pro)
+#### You can obtain "Food Infographic" by changing the [FOOD NAME]. Try Galbi, 감자탕, etc by using the following prompt template. 
 
 Ultra-clean modern recipe infographic. <br/>
 (1) Showcase [FOOD NAME] in a visually appealing finished form—sliced, plated, or portioned—floating slightly in perspective or angled view.  <br/>
