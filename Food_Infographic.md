@@ -1,7 +1,7 @@
 ## Food Infographic: Gemini Nano Banana Pro
 #### You can obtain "Food Infographic" by changing the [FOOD NAME]. Try Galbi, 감자탕, etc by using the following prompt. 
 
-Ultra-clean modern recipe infographic. Showcase [Galbi] in a visually appealing finished form—sliced, plated, or portioned—floating slightly in perspective or angled view. 
+Ultra-clean modern recipe infographic. Showcase [FOOD NAME] in a visually appealing finished form—sliced, plated, or portioned—floating slightly in perspective or angled view. 
 Arrange ingredients, steps, and tips around the dish in a dynamic editorial layout, not restricted to top-down. 
 Ingredients Section: Include icons or mini illustrations for each ingredient with quantities. Arrange them in clusters, lists, or circular flows connected visually to the dish. 
 Steps Section: Show preparation steps with numbered panels, arrows, or lines, forming a logical flow around the main dish. Include small cooking icons (knife, pan, oven, timer) where helpful. 
